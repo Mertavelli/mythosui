@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  color: var(--text-color);
+  background-color: var(--background);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@theme {
+  --color-primary: oklch(0 0 0);
+  --color-secondary: oklch(0.752 0.147 229);
+  --font-inter: Inter, sans-serif;
+}
